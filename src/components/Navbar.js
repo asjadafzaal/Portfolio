@@ -18,24 +18,14 @@ import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
-  const [navColour, updateNavbar] = useState(false);
 
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
-    }
-  }
 
-  window.addEventListener("scroll", scrollHandler);
 
   return (
     <Navbar
       expanded={expand}
-      fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
+      className="navbar"
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
