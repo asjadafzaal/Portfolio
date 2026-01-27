@@ -38,7 +38,7 @@ function Home() {
                 transition={{ duration: 1, delay: 0.5 }}
               >
                 I'M
-                <strong className="main-name"> ASJA AFZAAL</strong>
+                <strong className="main-name"> ASJAD AFZAAL</strong>
               </motion.h1>
 
               {/* Slide-up animation for the Type component */}
