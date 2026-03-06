@@ -40,7 +40,7 @@ function Home2() {
               transition={{ duration: 1 }}
               ref={titleRef}
             >
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple"> INTROD </span> MYSELF
             </motion.h1>
 
             {/* Slide-in animation for the description */}
